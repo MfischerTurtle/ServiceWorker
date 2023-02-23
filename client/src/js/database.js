@@ -23,7 +23,7 @@ console.log('Put to the database');
   console.log(request);
 
   const result = await request;
-  console.log('🚀 - data saved to the database', result);
+  console.log('data saved to the database', result);
   return result;
 }
 
